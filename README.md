@@ -40,8 +40,7 @@ Cash Flow Tracker is a personal finance management web application that helps us
 
 ## Live Demo
 
-Add your GitHub Pages URL here.
-
+https://wanshikarajput.github.io/Cash-flow-tracker./
 ## Future Improvements
 
 * Expense categories
