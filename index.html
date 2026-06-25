@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Flow Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div>
+    <h1>Cash Flow Tracker</h1>
+
+    <input type="number" id="salary" placeholder="Enter Salary">
+
+    <input type="text" id="expenseName" placeholder="Expense Name">
+
+    <input type="number" id="expenseAmount" placeholder="Expense Amount">
+
+    <button id="addBtn">Add Expense</button>
+
+    <h2>Total Salary: ₹<span id="salaryDisplay">0</span></h2>
+
+    <h2>Remaining Balance: ₹<span id="balance">0</span></h2>
+    <p id="warning"></p>
+    <canvas id="expenseChart"></canvas>
+
+    <ul id="expenseList"></ul>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</div>
+</body>
+</html>

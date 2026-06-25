@@ -1,0 +1,95 @@
+body{
+    font-family: Arial, sans-serif;
+    text-align:center;
+    background:#f4f6f8;
+    padding:20px;
+}
+
+input{
+    padding:10px;
+    margin:8px;
+    border:1px solid #ccc;
+    border-radius:8px;
+}
+
+button{
+    padding:10px 15px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+button:hover{
+    opacity:0.9;
+}
+#expenseChart{
+    width:250px !important;
+    height:250px !important;
+    margin-top:20px;
+}
+#expenseChart{
+    max-width:300px;
+    margin:20px auto;
+    display:block;
+}
+li{
+    margin:10px 0;
+}
+
+li button{
+    margin-left:10px;
+}
+#expenseChart{
+    width:300px !important;
+    height:300px !important;
+}
+
+#warning{
+    color:red;
+    font-weight:bold;
+}
+    padding:10px;
+    margin:8px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    li{
+    list-style:none;
+    margin:10px;
+}
+
+li button{
+    margin-left:10px;
+}
+.container{
+    max-width:700px;
+    margin:auto;
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.1);
+}
+h1{
+    color:#333;
+    margin-bottom:20px;
+}
+#addBtn{
+    background:#4CAF50;
+    color:white;
+}
+li button{
+    background:#ff4d4d;
+    color:white;
+}
+body{
+    font-family:'Poppins', sans-serif;
+    text-align:center;
+    background:#f4f6f8;
+    padding:20px;
+}
+h1{
+    font-size:2.8rem;
+    font-weight:700;
+    color:#111827;
+    letter-spacing:2px;
+    text-transform:uppercase;
+}
