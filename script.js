@@ -17,6 +17,10 @@ const expenseList = document.getElementById("expenseList");
 let totalExpenses = 0;
 let expenses = [];
 let chart;
+function updateBalance() {
+    const salary = Number(localStorage.getItem("salary")) || 0;
+    balanceDisplay.textContent = salary - totalExpenses;
+}
 const savedExpenses = JSON.parse(localStorage.getItem("expenses")) || [];
 const warning = document.getElementById("warning");
 
@@ -45,9 +49,8 @@ savedExpenses.forEach(function(expense){
 
     localStorage.setItem("expenses", JSON.stringify(expenses));
 
-    const salary = Number(localStorage.getItem("salary")) || 0;
-
-    balanceDisplay.textContent = salary - totalExpenses;
+    
+    updateBalance();
 
     li.remove();
     updateChart();
@@ -125,9 +128,7 @@ li.appendChild(deleteBtn);
 
 expenseList.appendChild(li);
 
-    const balance = salary - totalExpenses;
-
-    balanceDisplay.textContent = balance;
+    updateBalance();
     updateChart();
     checkThreshold();
 
